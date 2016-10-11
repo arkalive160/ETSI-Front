@@ -29,7 +29,7 @@
                         </li>
         
                         <li class="hi-logo hidden-xs">
-                            <a href="index.html">Material Admin</a>
+                            <a href="index.html">Escuelas Taller</a>
                         </li>
         
                         <li class="pull-right">
@@ -495,7 +495,7 @@
                     <section id="content">
                         <div class="container">
                             <div class="block-header">
-                                <h2>Form Examples</h2>
+                                <h2>CREACIÓN DE PROGRAMA</h2>
                             </div>
                             <div class="col-sm-6">
                             <div class="card" >
@@ -597,6 +597,13 @@
                                 </div>
                             </div>
                             </div>
+                            
+                            <!-- --------
+                            
+                                Card for componente Practico 
+                                  
+                                ---------
+                            -->
                             <div class="col-sm-12">
                             <div class="card" >
                                 <div class="card-header">
@@ -623,15 +630,15 @@
                                         <div class="col-xs-6">
                                         <div class="form-group fg-line">
                                             <label for="nombreModulo">Nombre</label>
-                                            <input type="text" class="form-control input-sm" id="nombreModulo"
+                                            <input type="text" class="form-control input-sm nombreModulo" id="nombreModulo"
                                                    placeholder="">
                                         </div>
                                         </div>
                                         <div class="col-xs-6">
                                         <div class="form-group">
                                             <div class="fg-line">
-                                                <label for="competenciaGeneral">Descripción</label>
-                                                <textarea class="form-control" rows="5"
+                                                <label for="descripcion">Descripción</label>
+                                                <textarea class="form-control descripcionModulo" rows="5"
                                                       placeholder="..."></textarea>
                                             </div>
                                         </div>
@@ -650,7 +657,7 @@
                                         <div class="col-xs-4">
                                         <div class="form-group fg-line">
                                             <label for="nombreUnidad">Nombre</label>
-                                            <input type="text" class="form-control input-sm" id="nombreUnidad"
+                                            <input type="text" class="form-control input-sm nombreUnidad" id="nombreUnidad"
                                                    placeholder="">
                                         </div>
                                         </div>
@@ -658,7 +665,7 @@
                                         <div class="form-group">
                                             <div class="fg-line">
                                                 <label for="competenciaUnidad">Competencias</label>
-                                                <textarea class="form-control" rows="5"
+                                                <textarea id="competenciaUnidad" class="form-control competenciaUnidad" rows="5"
                                                       placeholder="..."></textarea>
                                             </div>
                                         </div>
@@ -666,7 +673,7 @@
                                         <div class="col-xs-4">
                                         <div class="form-group fg-line">
                                             <label for="horasUnidad">Horas</label>
-                                            <input type="text" class="form-control input-sm" id="horasUnidad"
+                                            <input type="text" class="form-control input-sm horasUnidad" id="horasUnidad"
                                                    placeholder="">
                                         </div>
                                         </div>
@@ -695,6 +702,19 @@
                             
                             </div> <!-- col 12-->
                             
+                            <!-- --------
+                            
+                                END componente Practico 
+                                  
+                                ---------
+                            -->
+                            
+                            <!-- --------
+                            
+                                Card for componente Teorico 
+                                  
+                                ---------
+                            -->
                             <div class="col-sm-12">
                             <div class="card" >
                                 <div class="card-header">
@@ -720,23 +740,23 @@
                                         <div class="col-xs-4">
                                         <div class="form-group fg-line">
                                             <label for="nombreUnidad">Nombre</label>
-                                            <input type="text" class="form-control input-sm" id="nombreUnidad"
+                                            <input type="text" class="form-control input-sm nombreAsignatura" id=""
                                                    placeholder="">
                                         </div>
                                         </div>
                                         <div class="col-xs-4">
                                         <div class="form-group">
                                             <div class="fg-line">
-                                                <label for="competenciaUnidad">Contenido</label>
-                                                <textarea class="form-control" rows="5"
+                                                <label for="contenido">Contenido</label>
+                                                <textarea class="form-control contenidoAsignatura" rows="5"
                                                       placeholder="..."></textarea>
                                             </div>
                                         </div>
                                         </div>
                                         <div class="col-xs-4">
                                         <div class="form-group fg-line">
-                                            <label for="horasUnidad">Horas</label>
-                                            <input type="text" class="form-control input-sm" id="horasUnidad"
+                                            <label for="horaAsignatura">Horas</label>
+                                            <input type="text" class="form-control input-sm horaAsignatura" id="horaAsignatura"
                                                    placeholder="">
                                         </div>
                                         </div>
@@ -751,14 +771,25 @@
                                         <button type="button" class="btn btn-success waves-effect pull-right cloneAsignatura">Añadir asignatura</button>
                                     </div>
                                     </form>
+                                    <button type="button" id="build" class="btn btn-success waves-effect pull-left buildThatjson">Enviar Formulario</button>
                                 </div>
                             </div>
                             
                             </div> <!-- col 12-->
                             
+                            <!-- --------
+                            
+                                END componente Teorico 
+                                  
+                                ---------
+                            -->
+                            
                             </div>
+                            
                         </div>
+                        
                     </section>
+                    
                 </section>
                 
                 <footer id="footer">
